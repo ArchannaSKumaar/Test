@@ -1,0 +1,65 @@
+hr{
+    border: .5px solid rgb(139, 139, 139);
+}
+a{
+    font-size: 12px;
+    font-weight: 20px;
+    text-decoration: underline;
+}
+.plan-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.plan-card {
+box-sizing: border-box;
+border-radius: 8px;
+width: 300px;
+text-align: left;
+padding: 30px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+transition: box-shadow 0.3s ease;
+}
+.plan-card:hover {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.plan-card h2 {
+margin: 0px;
+}
+.plan-card p:first-of-type {
+font-size: 10px;
+margin: 0px;
+padding: 0px;
+}
+.plan-card p {
+font-size: 18px;
+margin: 10px 0;
+padding: 0px;
+}
+.plan-card ul {
+list-style-type: none;
+padding: 0;
+}
+.plan-card li {
+margin: 5px 0;
+}
+.plan-strick{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+.plan-starting{
+    border-radius: 10px;
+    padding: 6px;
+    width: 120px;
+}
+.plan-starting.color-1 {
+    background-color: rgb(248, 248, 162);
+}
+
+.plan-starting.color-2 {
+    background-color: rgb(255, 156, 156);
+}
+
+.plan-starting.color-3 {
+    background-color: rgb(241, 171, 255);
+}

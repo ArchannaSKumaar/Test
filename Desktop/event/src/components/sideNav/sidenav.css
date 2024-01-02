@@ -1,0 +1,25 @@
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 200px;
+    padding: 20px 0px;
+  }
+.nav-option {
+    cursor: pointer;
+    padding: 8px;
+    padding: 20px 0px;
+    margin: 10px 10px 10px 0px;
+    border: .5px solid rgb(226, 226, 226);
+    border-radius: 0 10px 10px 0;
+    transition: background-color 0.3s;
+}
+.nav-option:hover {
+    background-color: #77cfea;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.selected {
+    background-color: #77cfea;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+  
