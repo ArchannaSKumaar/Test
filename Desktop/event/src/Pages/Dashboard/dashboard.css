@@ -10,6 +10,21 @@
     background-color: rgb(255, 255, 255);  
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1); 
 }
+.dashboard-profile-photo{
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+}
+.dashboard-profile-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.dashboard-profile-info img{
+    width: 10px;
+    height: 10px;
+    padding-left: 10px;
+}
 .dashboard-profile-info > div > p{
     font-weight: 500;
 }
@@ -20,11 +35,16 @@
 .dashboard-profile-info p{
     margin: 0;
 }
-
 .dashboard-logout{
     margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    color: rgb(32, 94, 240);
 }
-.dashboard-logout p{
-    color: rgb(57, 100, 201);
-    margin: 0px;
+.dashboard-logout img{
+    padding: 0px 10px;
+    width: 20px;
+    height: 20px;
+
 }
