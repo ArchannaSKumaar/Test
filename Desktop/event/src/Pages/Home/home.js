@@ -1,28 +1,35 @@
 import React from 'react';
 import '../Home/home.css';
 import Dashboards from '../Dashboard/dashboard.js';
+import ImageSlider from '../imageSlider/imageslide.js'
 import Body from '../Body/body.js';
+import arrow from '../Home/arrow-down-sign-to-navigate.png';
+import logo from '../Home/logo.jpeg';
+import profile from '../Home/companyProfile.jpeg';
 
 const Home = () => {
   return (
     <div className='home-container'>
       <div className="home-header">
         <div className='home-logo'>
-        This is a title!
+          <img src={logo} alt='dash' className='images'></img>
         </div>
         <div className='home-profile'>
           <div className='home-profile-Infor'>
             <div className='home-profile-logo'>
-              logo
+              <img src={profile} alt='dash' className='images'></img>
             </div>
             <div className='home-profile-caption'>
               <p>XYZ Enterprises Pvt. Ltd</p>
             </div>
           </div>
           <div className='home-arrow'>
-            dwn-arrow
+            <img src={arrow} alt='dash'></img>
           </div>
         </div>
+      </div>
+      <div className='body-imageslider'>
+        <ImageSlider/>
       </div>
       <div className='home-body'>
         <Dashboards />
