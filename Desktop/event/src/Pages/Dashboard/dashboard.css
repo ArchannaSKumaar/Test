@@ -1,0 +1,30 @@
+.dashboard-container{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 540px;
+}
+.dashboard-profile{
+    margin-top: 5px;
+    padding: 20px;
+    margin-bottom: 3px;
+    background-color: rgb(255, 255, 255);  
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1); 
+}
+.dashboard-profile-info > div > p{
+    font-weight: 500;
+}
+.dashboard-profile-info > p{
+    font-size: 14px;
+}
+
+.dashboard-profile-info p{
+    margin: 0;
+}
+
+.dashboard-logout{
+    margin-top: auto;
+}
+.dashboard-logout p{
+    color: rgb(57, 100, 201);
+    margin: 0px;
+}
