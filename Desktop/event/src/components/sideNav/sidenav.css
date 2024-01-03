@@ -27,4 +27,11 @@
     background-color: #77cfea;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-  
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .side-nav{
+        width: 100px;
+        font-size: 0; 
+        color: transparent;
+    }
+
+}

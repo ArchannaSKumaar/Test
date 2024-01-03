@@ -12,19 +12,19 @@ const Home = () => {
     <div className='home-container'>
       <div className="home-header">
         <div className='home-logo'>
-          <img src={logo} alt='dash' className='images'></img>
+          <img src={logo} alt='logo' className='images'></img>
         </div>
         <div className='home-profile'>
           <div className='home-profile-Infor'>
             <div className='home-profile-logo'>
-              <img src={profile} alt='dash' className='images'></img>
+              <img src={profile} alt='profile' className='images'></img>
             </div>
             <div className='home-profile-caption'>
               <p>XYZ Enterprises Pvt. Ltd</p>
             </div>
           </div>
           <div className='home-arrow'>
-            <img src={arrow} alt='dash'></img>
+            <img src={arrow} alt='arrow'></img>
           </div>
         </div>
       </div>
